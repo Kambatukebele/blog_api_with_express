@@ -4,8 +4,8 @@ node_modules
 .env
 
 #Prisma
-/generated/prisma
-.agents
-.claude
-.windsurf
+/backend/generated/prisma
+/backend/.agents
+/backend/.claude
+/backend/.windsurf
 
