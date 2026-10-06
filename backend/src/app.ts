@@ -4,6 +4,9 @@ import AppError from "./errors/AppError";
 
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded());
+
 app.get("/api/health", (req: Request, res: Response) => {
   res.send("Api working");
 });
